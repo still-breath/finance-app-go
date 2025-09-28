@@ -1,4 +1,8 @@
+![Finance App Thumbnail](./thumbnail.svg)
+
 # Finance App
+
+![Finance App Dashboard](./preview.png)
 
 This is a full-stack personal finance application that helps you track your income and expenses. It uses a Go backend, a React frontend, and a Python AI service for automatic transaction categorization.
 
