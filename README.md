@@ -66,9 +66,6 @@ Frameworks, Libraries, and Tools used in this project:
 <a target="_blank" href="https://golang.org/">
 <img height="30" src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
 </a>
-<a target="_blank" href="https://gin-gonic.com/">
-<img height="30" src="https://img.shields.io/badge/Gin-00ADD8?style=for-the-badge&logoColor=white" alt="Gin"/>
-</a>
 <a target="_blank" href="https://www.python.org/">
 <img height="30" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 </a>
