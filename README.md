@@ -192,13 +192,21 @@ finance-app/
 ├── categorizer-ai-service/    # Python AI service for transaction categorization
 │   ├── app.py                # Flask application
 │   ├── model_training.py     # ML model training script
+│   ├── Dockerfile           # Docker build instructions
+│   ├── requirements.txt      # Python dependencies
+│ML model training script
 │   └── requirements.txt      # Python dependencies
 ├── data/                     # Training data for AI model
 ├── finance-backend-go/       # Go backend service
 │   ├── controllers/          # API controllers
-│   ├── models/              # Data models
-│   ├── routes/              # API routes
-│   └── main.go              # Main application
+│   ├── Dockerfile           # Docker build instructions
+│   ├── main.go              # Main application
+│   ├── ai_client.go         # AI service client
+│   ├── additional_handlers.go  # Additional handlers
+│   ├── database.go              # database.go extension
+│   ├── handlers.go              # handlers.go extension
+│   ├── models.go              # Models for backend
+│   ├── transaction_handlers.go  # Handlers for transaction feature
 ├── finance-frontend/         # React frontend application
 │   ├── src/                 # Source code
 │   ├── public/              # Static assets
