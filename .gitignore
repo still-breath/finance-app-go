@@ -1,18 +1,39 @@
-# Node
-node_modules
+# Environment files (SENSITIVE)
+.env
+.env.local
+.env.production
+.env.staging
+.env.test
+finance-backend-go/.env
+categorizer-ai-service/.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Docker configuration (SENSITIVE)
+docker-compose.yml
+docker-compose.override.yml
+
+# Node.js
+node_modules/
 .npm
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
+yarn.lock
 
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Distribution / packaging
+*.so
 .Python
 build/
+develop-eggs/
 dist/
 downloads/
 eggs/
@@ -26,14 +47,9 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-
-# Docker
-docker-compose.yml
+MANIFEST
 
 # PyInstaller
-#  Usually these files are written by a PyInstaller script
-#  in a top-level directory.  Adding them here reduces clutter
-#  in the root folder.
 *.manifest
 *.spec
 
@@ -44,30 +60,15 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+.nox/
 .coverage
 .coverage.*
 .cache
-.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
 .hypothesis/
-
-# Environments
-.env
-.env.local
-.env.production
-.env.staging
-finance-backend-go/.env
-categorizer-ai-service/.env
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# IDEs
-.idea/
-.vscode/
+.pytest_cache/
 
 # Go
 # Binaries for programs and plugins
@@ -76,6 +77,8 @@ venv.bak/
 *.dll
 *.so
 *.dylib
+finance-backend
+finance-backend.exe
 
 # Test binary, built with `go test -c`
 *.test
@@ -83,16 +86,59 @@ venv.bak/
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
-# Docker
-docker-compose.override.yml
+# Go dependency files
+go.sum
 
-# Models
-models/
+# AI Models (potentially large/sensitive)
+models/*.pkl
+models/*.joblib
+models/metadata.pkl
+*.model
 
-# Data
+# Data files
 data/
+*.csv
+*.xlsx
+*.json
+training_data.xlsx
 
-# Misc
-.DS_Store
-*.pem
+# Logs
 *.log
+logs/
+log/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.p12
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
