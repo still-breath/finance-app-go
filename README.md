@@ -12,6 +12,13 @@
 <a target="_blank" href="https://github.com/still-breath/finance-app-golang"><img height="20" src="https://img.shields.io/github/repo-size/still-breath/finance-app-golang" alt="Repo Size"></a>
 </p>
 
+<div align="center">
+<h2>🔒 SECURITY NOTICE</h2>
+<p><strong>⚠️ This repository requires proper setup before use!</strong></p>
+<p>📖 <strong>Read <a href="SETUP.md">SETUP.md</a> for security configuration instructions</strong></p>
+<p>🚫 <strong>Fresh clone will NOT run without proper setup</strong></p>
+</div>
+
 <p align="center">
 <a href="#-introduction">Introduction</a> &nbsp;&bull;&nbsp;
 <a href="#-tech-stack">Tech Stack</a> &nbsp;&bull;&nbsp;
