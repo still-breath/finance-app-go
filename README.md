@@ -1,7 +1,7 @@
 <div align="center">
 <h1>💰 FINANCE APP - PERSONAL FINANCE MANAGEMENT SYSTEM</h1>
 <a href="https://github.com/still-breath/finance-app-golang.git">
-    <img src="./thumbnail.svg" height="300" alt="finance-app-dashboard">
+    <img src="./thumbnail.png" height="300" alt="finance-app-dashboard">
 </a>
 </div>
 
