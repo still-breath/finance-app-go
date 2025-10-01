@@ -1,4 +1,4 @@
-# Node.js
+# Node
 node_modules
 .npm
 npm-debug.log*
@@ -27,6 +27,9 @@ wheels/
 .installed.cfg
 *.egg
 
+# Docker
+docker-compose.yml
+
 # PyInstaller
 #  Usually these files are written by a PyInstaller script
 #  in a top-level directory.  Adding them here reduces clutter
@@ -48,6 +51,12 @@ htmlcov/
 .hypothesis/
 
 # Environments
+.env
+.env.local
+.env.production
+.env.staging
+finance-backend-go/.env
+categorizer-ai-service/.env
 .env
 .venv
 env/
